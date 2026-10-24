@@ -1,0 +1,13 @@
+[project]
+name = "jarvis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "google-genai>=2.33.0",
+    "groq>=1.7.0",
+    "psutil>=7.2.2",
+    "python-dotenv>=1.2.4",
+    "rich>=15.0.0",
+]
